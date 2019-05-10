@@ -1,0 +1,45 @@
+{
+  "name": "eth-net-intelligence-api.public.dappnode.eth",
+  "version": "0.0.2",
+  "description": "Non-official DNP of eth-net-intelligence-api. Allow you to push your ethereum node stats to an instance of ethstats website like https://ethstats.net/",
+  "avatar": "",
+  "type": "library",
+  "image": {
+    "path": "eth-net-intelligence-api.public.dappnode.eth_0.0.2.tar.xz",
+    "hash": "/ipfs/QmQpC4dMswqHrk9ZDrsvfJ6PUaQNHhq6Po4PkonNATd1w4",
+    "size": 15888820,
+    "volumes": [],
+    "ports": [],
+    "restart": "always",
+    "environment": [
+      "INSTANCE_NAME=My.DAppNode",
+      "CONTACT_DETAILS=",
+      "WS_SERVER=wss://rpc.ethstats.net",
+      "WS_SECRET=see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic",
+      "RPC_HOST=172.33.1.6",
+      "RPC_PORT=8545",
+      "LISTENING_PORT=30303",
+      "VERBOSITY=2"
+    ]
+  },
+  "author": "Kelgors <kelgors@gmail.com> (https://github.com/kelgors)",
+  "links": {
+    "homepage": "https://github.com/cubedro/eth-net-intelligence-api#readme",
+    "github": "https://github.com/kelgors/dnp-eth-net-intelligence-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelgors/dnp-eth-net-intelligence-api"
+  },
+  "keywords": [
+    "DAppNodeLibrary",
+    "Library",
+    "Api",
+    "Netstats",
+    "Eth-net-intelligence-api",
+    "Ethereum",
+    "Stats"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {}
+}
